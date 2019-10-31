@@ -8,4 +8,4 @@ By default, k8s official mandatory.yml file shows container IP's in ingress stat
 
 This updated config will show node IP instead of conatiner service IP.
 
-`kubectl -f `
+`kubectl apply -f https://raw.githubusercontent.com/jamesarems/k8s-ingress/master/mandatory.yaml`
